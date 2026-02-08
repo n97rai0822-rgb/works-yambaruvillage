@@ -256,6 +256,16 @@ header
     margin-top: 15px;
 }
 
+.nav__item a {
+    display: inline-block;
+    transition: 0.8s;
+}
+
+
+.nav__item a:hover {
+    transform: translateX(20px);
+}
+
 .nav__item::after {
     content: '';
     display: block;
